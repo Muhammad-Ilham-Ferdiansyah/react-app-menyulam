@@ -34,7 +34,9 @@ const Input = styled.input`
     border: none;
 `
 const Logo = styled.h1`
-    font-weight: bold;
+    font-family: 'Oooh Baby', cursive !important; 
+    font-weight: bold;  
+    letter-spacing: 3px;
 `
 
 const Center = styled.div`
