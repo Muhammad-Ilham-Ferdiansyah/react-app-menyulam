@@ -83,9 +83,15 @@ const Amount = styled.span`
 `
 const Button = styled.button`
     padding: 15px;
-    border: 1px solid brown;
+    border: 2px solid brown;
     background-color: white;
     cursor: pointer;
+    font-weight: 500;
+    border-radius: 10px;
+
+    &:hover {
+        background-color: #f8f4f4;
+    }
 `
 
 const Product = () => {
