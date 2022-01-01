@@ -13,6 +13,8 @@ const Container = styled.div`
 const Title = styled.h1`
     font-size: 70px;
     margin-bottom: 20px;
+    font-family: 'Oooh Baby', cursive !important; 
+    letter-spacing: 3px;
 `
 const Description = styled.div`
     font-size: 24px;
@@ -42,7 +44,7 @@ const Button = styled.button`
 const Newsletter = () => {
     return (
         <Container>
-            <Title>Newsletter</Title>
+            <Title>me.nyulam</Title>
             <Description>Available for custom writing and pattern.</Description>
             <InputContainer>
                 <Input placeholder='Your email'/>
