@@ -6,6 +6,7 @@ const Container = styled.div`
     height 100vh;
     background: linear-gradient(rgba(255,255,255,0.5), rgba(255,255,255,0.8)),
     url("https://res.cloudinary.com/dffrqml8w/image/upload/v1641050147/me.nyulam/2020-11-11_10.34.58_1_hdgjkh.jpg") center;
+    background-size: cover;
     display: flex;
     align-items: center;
     justify-content: center;
